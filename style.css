@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Poppins:wght@300;500;700&display=swap");
+
+:root {
+  --primary: #1d4ed8;
+  --secondary: #0a0a0a;
+}
+
+body {
+  margin: 0%;
+  font-family: "Poppins", sans-serif;
+}
+
+.section {
+  width: 100%;
+}
+
+.contain {
+  max-width: 750px;
+  margin: auto;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+.navbar {
+  background-color: var(--primary);
+}
+
+.navbar .contain {
+  max-width: 100%;
+}
+
+.navbar .brand {
+  font-family: "Caveat", cursive;
+  color: white;
+  font-size: 3.5rem;
+}
+
+.navbar .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.navbar .menu {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* footer */
+.footer {
+  margin-top: 2rem;
+}
+
+.footer .contain {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.social-links {
+  list-style: none;
+  margin: auto;
+}
+
+.social-links a {
+  display: inline;
+  color: var(--primary);
+  font-size: 2.5rem;
+  margin: auto 1rem;
+}
+
+.footer small {
+  font-size: 1rem;
+  align-self: center;
+}
+
+/* question container */
+.question-contain {
+  text-align: center;
+  font-weight: 500;
+  margin: 2.5rem auto;
+}
+
+.question-contain input {
+  font-weight: 300;
+}
+
+/* contents */
+.content {
+  text-align: center;
+}
+
+/* buttons */
+.btn {
+  margin-top: 2rem;
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 2px solid var(--primary);
+  border-radius: 0.35rem;
+  font-weight: 500;
+  color: var(--primary);
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+
+/* result */
+#result {
+  opacity: 0%;
+}
+
+/* angle triangles html */
+.inputs input {
+  display: block;
+  margin: 0.3rem auto 2.5rem auto;
+  padding: 0.5rem 1rem;
+  border-radius: 0.35rem;
+  border: 3px solid var(--primary);
+}
+
+.inputs label {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--primary);
+}
+
+/* calculate hypotenuse html */
+.inputs1 input {
+  display: block;
+  margin: 0.3rem auto 2.5rem auto;
+  padding: 0.5rem 1rem;
+  border-radius: 0.35rem;
+  border: 3px solid var(--primary);
+}
+
+.inputs1 label {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--primary);
+}
